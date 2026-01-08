@@ -1,0 +1,311 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nam": "Benhoni",
+      "avatar": "https://ui-avatars.com/api/?name=Benhoni&background=0D8ABC&color=fff"
+    },
+    {
+      "id": "2",
+      "nam": "Alice",
+      "avatar": "https://ui-avatars.com/api/?name=Alice&background=0D8ABC&color=fff"
+    },
+    {
+      "id": "3",
+      "nam": "Leo",
+      "avatar": "https://ui-avatars.com/api/?name=Leo&background=0D8ABC&color=fff"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "1",
+      "participants": [
+        1,
+        2
+      ],
+      "lastMessage": "On se voit cet après-midi ?",
+      "updatedAt": "2025-01-10T12:09:00Z"
+    },
+    {
+      "id": "2",
+      "participants": [
+        1,
+        3
+      ],
+      "lastMessage": "On parle plus tard ?",
+      "updatedAt": "2025-01-10T12:13:00Z"
+    },
+    {
+      "id": "3",
+      "participants": [
+        2,
+        3
+      ],
+      "lastMessage": "À plus tard !",
+      "updatedAt": "2025-01-10T11:45:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "conversationId": 1,
+      "senderId": 1,
+      "content": "Salut Alice, ça va ?",
+      "timestamp": "2025-01-10T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "conversationId": 1,
+      "senderId": 2,
+      "content": "Oui et toi ?",
+      "timestamp": "2025-01-10T12:01:00Z"
+    },
+    {
+      "id": "3",
+      "conversationId": 1,
+      "senderId": 1,
+      "content": "Je voulais te parler d’un truc.",
+      "timestamp": "2025-01-10T12:02:00Z"
+    },
+    {
+      "id": "4",
+      "conversationId": 1,
+      "senderId": 1,
+      "content": "Tu es dispo aujourd’hui ?",
+      "timestamp": "2025-01-10T12:03:00Z"
+    },
+    {
+      "id": "5",
+      "conversationId": 1,
+      "senderId": 2,
+      "content": "Oui je suis dispo.",
+      "timestamp": "2025-01-10T12:06:00Z"
+    },
+    {
+      "id": "6",
+      "conversationId": 1,
+      "senderId": 2,
+      "content": "On se voit cet après-midi ?",
+      "timestamp": "2025-01-10T12:09:00Z"
+    },
+    {
+      "id": "7",
+      "conversationId": 2,
+      "senderId": 1,
+      "content": "Salut Leo, ça va ?",
+      "timestamp": "2025-01-10T12:00:00Z"
+    },
+    {
+      "id": "8",
+      "conversationId": 2,
+      "senderId": 3,
+      "content": "Non je ne vais pas bien.",
+      "timestamp": "2025-01-10T12:01:00Z"
+    },
+    {
+      "id": "9",
+      "conversationId": 2,
+      "senderId": 3,
+      "content": "J’ai eu une mauvaise journée.",
+      "timestamp": "2025-01-10T12:10:00Z"
+    },
+    {
+      "id": "10",
+      "conversationId": 2,
+      "senderId": 3,
+      "content": "Je suis un peu stressé.",
+      "timestamp": "2025-01-10T12:11:00Z"
+    },
+    {
+      "id": "11",
+      "conversationId": 2,
+      "senderId": 3,
+      "content": "Merci de demander.",
+      "timestamp": "2025-01-10T12:12:00Z"
+    },
+    {
+      "id": "12",
+      "conversationId": 2,
+      "senderId": 3,
+      "content": "On peut parler plus tard ?",
+      "timestamp": "2025-01-10T12:13:00Z"
+    },
+    {
+      "id": "13",
+      "conversationId": 3,
+      "senderId": 2,
+      "content": "Salut Leo !",
+      "timestamp": "2025-01-10T11:40:00Z"
+    },
+    {
+      "id": "14",
+      "conversationId": 3,
+      "senderId": 3,
+      "content": "Salut Alice !",
+      "timestamp": "2025-01-10T11:41:00Z"
+    },
+    {
+      "id": "15",
+      "conversationId": 3,
+      "senderId": 2,
+      "content": "Tu fais quoi aujourd’hui ?",
+      "timestamp": "2025-01-10T11:43:00Z"
+    },
+    {
+      "id": "16",
+      "conversationId": 3,
+      "senderId": 3,
+      "content": "Je suis occupé mais on parle plus tard.",
+      "timestamp": "2025-01-10T11:45:00Z"
+    },
+    {
+      "id": "1766054214703",
+      "content": "Bonjour ",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": "1766054240714",
+      "content": "benhoni",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": "1766054790796",
+      "content": "bb",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": "1766055401640",
+      "content": "oui et toi ?",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni",
+      "conversationId": 1,
+      "timestamp": "2025-12-18T10:56:41.640Z"
+    },
+    {
+      "id": "1766062587661",
+      "content": "Salut",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": "1766074478642",
+      "content": "Bonjour ",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": "1766218704679",
+      "content": "Salut la famille !",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": "1766218739860",
+      "content": "Ccc",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Alice"
+    },
+    {
+      "id": "1766423417491",
+      "content": "Bonjour Alice ",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Alice"
+    },
+    {
+      "id": 1767618550319,
+      "content": "Bbcvb",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": 1767618692756,
+      "content": "J",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": 1767618695388,
+      "content": "Nfn",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": 1767618697523,
+      "content": " D",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": 1767618699741,
+      "content": "B",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": 1767618702690,
+      "content": "Brnd",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": 1767618708090,
+      "content": "Mais t’es où ?",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": 1767618714657,
+      "content": "J’arrive te voir",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": 1767618718755,
+      "content": "Sors je suis là",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": 1767618723010,
+      "content": "Bb",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": 1767618730337,
+      "content": "Mais tu fais quoi ?",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    },
+    {
+      "id": 1767618770536,
+      "content": "C’est quoi ce comportement ? J’aime pas ça arrête tout ça ?",
+      "senderId": 0,
+      "senderName": "Moi",
+      "receiverName": "Benhoni"
+    }
+  ]
+}
