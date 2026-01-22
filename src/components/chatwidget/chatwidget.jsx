@@ -59,7 +59,7 @@ export default function ChatWidget() {
       {/* Logo */}
       <div
         onClick={() => setOpen(!open)}
-        className="fixed bottom-5 right-5 w-14 h-14 bg-black text-white 
+        className="fixed bottom-5 left-0 w-14 h-14 bg-black text-white 
         rounded-full flex items-center justify-center cursor-pointer shadow-lg hover:scale-110 transition-transform"
       >
         <FontAwesomeIcon icon={faBrain}  />
@@ -67,7 +67,7 @@ export default function ChatWidget() {
 
       {/* Chat */}
       {open && (
-        <div className="fixed bottom-24 right-5 w-96 h-10/12   shadow-xl rounded-lg flex flex-col">
+        <div className="fixed bottom-24 right-0 w-96 h-10/12  shadow-xl rounded-lg flex flex-col">
           <div className="p-3 bg-black text-white text-center font-semibold  ">
             red team ia
           </div>
