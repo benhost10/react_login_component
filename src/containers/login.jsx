@@ -277,7 +277,7 @@ export default function Login() {
       setTimeout(() => {
         setShow(false)
         setMessage("")
-      }, 2000)
+      }, 1000)
       
     } catch (error) {
       setMessage("Échec de l'inscription : " + error.message)
