@@ -2,6 +2,7 @@ import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 
 export default function Login() {
+  {motion}
   const [show, setShow] = useState(false)
   const [getText,setGetText]=useState("")
   const [getTextP,setGetTextP]=useState("")

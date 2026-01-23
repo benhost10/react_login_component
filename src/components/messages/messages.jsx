@@ -25,8 +25,9 @@ function Message({ onConversationStateChange, onClose }){
     const [isInCall, setIsInCall]=useState(false)
     const videoRef=useRef(null)
     
+    
     // ✅ Référence WebSocket
-    const wsRef = useRef(null)
+    
     // ✅ Référence pour l'intervalle de polling
     const pollingRef = useRef(null)
 
@@ -254,14 +255,14 @@ function Message({ onConversationStateChange, onClose }){
     }
 
     return(
-        <div className="h-full md:w-90 absolute z-2 w-full" 
+        <div className="h-full md:w-90 absolute z-2 w-full  " 
         style={{
                 background: "linear-gradient(to bottom, #ec4899, #8b5cf6)"
             }}
         >
             {/* ✅ Navbar avec bouton retour qui ferme TOUT */}
             {!selectedUser && (
-                <div className="header grid grid-cols-2 bg-violet-600 z-10 fixed top-0 left-0 w-full md:w-90 px-2 py-3 text-2xl text-white">
+                <div className="header grid grid-cols-2  z-10 fixed top-0 left-0 w-full md:w-90 px-2 py-3 text-2xl text-white ">
                     <div className="flex items-center">
                         <button className="btn btn-ghost" onClick={handleCloseMessages}>
                             <FontAwesomeIcon icon={faAngleLeft} size={"2x"}/>
@@ -313,11 +314,11 @@ function Message({ onConversationStateChange, onClose }){
                                 
                                 {conv.last_message && (
                                     <div className="w-full flex items-center gap-2 mt-1">
-                                        <span className={`text-sm ${conv.unread_count > 0 ? 'font-semibold text-white' : 'text-gray-300 opacity-80'} truncate max-w-xs`}>
+                                        <span className={`text-sm ${conv.unread_count > 0 ? 'font-semibold text-white' : 'text-gray-600 opacity-80'} truncate max-w-xs`}>
                                             {conv.last_message.is_from_me && "Vous: "}
                                             {conv.last_message.message}
                                         </span>
-                                        <span className="text-xs text-gray-400 ml-auto">
+                                        <span className="text-xs text-gray-800 ml-auto">
                                             {new Date(conv.last_message.created_at).toLocaleTimeString('fr-FR', { 
                                                 hour: '2-digit', 
                                                 minute: '2-digit' 
@@ -355,10 +356,8 @@ function Message({ onConversationStateChange, onClose }){
                          background: "linear-gradient(to bottom, #ec4899, #8b5cf6)"
                      }}>
 
-                    <div className="fixed top-0 grid grid-cols-2 h-16 w-full md:w-90 left-0 z-4 items-center" 
-                    style={{
-                         background: "linear-gradient(to bottom, #ec4899, #8b5cf6)"
-                     }}
+                    <div className="fixed top-0 grid grid-cols-2 h-10 w-full md:w-90 left-0 z-4 items-center " 
+                    
                     >
                         <div className="flex gap-10">
                             <button 
@@ -372,7 +371,7 @@ function Message({ onConversationStateChange, onClose }){
                                 <FontAwesomeIcon icon={faAngleLeft} size={"2x"} color={"blue"} />
                             </button>
 
-                            <h2 className="text-2xl font-bold text-white">
+                            <h2 className=" font-bold text-white">
                                 {selectedUser.user?.name}
                             </h2>
                         </div>

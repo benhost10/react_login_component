@@ -25,9 +25,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import Login from "./containers/login"
-import DashBoard from "./components/dashboard/dashboard"
+// import DashBoard from "./components/dashboard/dashboard"
 import NavBar from "./components/navBar/navBar"
-import Footer from "./components/footer/footer"
+// import Footer from "./components/footer/footer"
 import ChatWidget from "./components/chatwidget/chatwidget"
 
 export default function App() {
@@ -38,8 +38,8 @@ export default function App() {
       <Routes>
         {/* <Route path="/" element={<ChatWidget />} /> */}
         {/* <Route path="/" element={<Login />} /> */}
-        <Route path="/dashboard" element={<DashBoard />} />
-        <Route path="/footer" element={<Footer/>} />
+        {/* <Route path="/dashboard" element={<DashBoard />} /> */}
+        {/* <Route path="/footer" element={<Footer/>} /> */}
       </Routes>
     </BrowserRouter>
   )
